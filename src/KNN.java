@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public class KNN {
+public class KNN {/***/
 	int k=10;
 	int id;
 	myProgramStructure p = new myProgramStructure();
@@ -30,7 +30,7 @@ public class KNN {
 		}
 	}
 	
-	//给ol付出之
+	//缁檕l浠樺嚭涔�
 	
 	public void knn_maxstate(){
 		for(int i=0;i<k;i++){
@@ -97,7 +97,7 @@ public class KNN {
 				}
 			}
 		}
-		System.out.println("距离该向量最近的"+k+"个向量的id为：");
+		System.out.println("璺濈璇ュ悜閲忔渶杩戠殑"+k+"涓悜閲忕殑id涓猴細");
 		for(int i=0;i<10;i++){
 			System.out.print("   "+((myNumber)ol.get(i)).id);
 		}
@@ -115,6 +115,6 @@ public class KNN {
 				id = i;
 			}
 		}
-		System.out.print("该向量的类别为："+id);
+		System.out.print("璇ュ悜閲忕殑绫诲埆涓猴細"+id);
 	}
 }
